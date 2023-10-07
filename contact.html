@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>Ttravel</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/all.css">
+
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+	<!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+	<link rel="icon" href="images/logo.svg" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+	<header>
+
+		<div class="header-logo">
+			<a href="index.html">Ttravel</a>
+		</div>
+
+		<a id="header-menu-trigger" href="#0">
+			<span class="header-menu-icon"></span>
+		</a>
+
+		<nav id="menu-nav-wrap">
+
+			<a href="#0" class="close-button" title="close"><span>Close</span></a>
+
+			<h3>Ttravel.</h3>
+
+			<ul class="nav-list">
+				<li class="current"><a href="/index.html" title="">Home</a></li>
+				<li><a href="/room.html" title="">Room</a></li>
+				<li><a href="/contact.html" title="">Contact</a></li>
+			</ul>
+
+			<p class="sponsor-text" style="margin-top: 50vh;">
+				Ttravel with<br><span>HTML|CSS|SASS</span>
+			</p>
+
+		</nav> <!-- end #menu-nav-wrap -->
+
+	</header> <!-- end header -->
+
+	<!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="overlay"></div>
+
+		<div class="section-intro animate-this">
+			<h1>Contact.</h1>
+		</div> <!-- end section-intro -->
+
+		<div class="row contact-content">
+
+			<div class="col-seven tab-full animate-this">
+
+				<h5>Send Us Message</h5>
+
+				<!-- form -->
+				<iframe name="iframe_redirect" id="iframe_redirect" style="display:none;"
+					onload="if(typeof sent_redirect!='undefined'){window.location='https://www.google.com.tw/';}"></iframe>
+				<form name="contactForm" id="contactForm" method="post"
+					action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScNasL8W-d835bfRFeHYlIwW-5wx65W7wOcPdxwGiUNdcDG0A/formResponse">
+
+					<div class="form-field">
+						<input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2"
+							required="">
+					</div>
+
+					<div class="row">
+						<div class="col-six tab-full">
+							<div class="form-field">
+								<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value=""
+									required="">
+							</div>
+						</div>
+						<div class="col-six tab-full">
+							<div class="form-field">
+								<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"
+									value="">
+							</div>
+						</div>
+					</div>
+
+					<div class="form-field">
+						<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50"
+							required=""></textarea>
+					</div>
+
+					<div class="form-field">
+						<button class="submitform" type="button" id="submit">Submit</button>
+					</div>
+
+				</form> <!-- end form -->
+
+				<!-- contact-warning -->
+				<div id="message-warning"></div>
+
+				<!-- contact-success -->
+				<div id="message-success">
+					<i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				</div>
+
+			</div> <!-- end col-seven -->
+
+			<div class="col-four tab-full contact-info end animate-this">
+
+				<div class="cinfo">
+					<h6><br><br>Where to Find Us</h6>
+					<p>
+						No. 2, <br>Chengcheng North Road, <br>Beitun District, <br>Taichung City 406
+					</p>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14560.990343761196!2d120.6916801!3d24.1630483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346917e0551f061d%3A0x81bc37da5c49059c!2z6Ie65Lit5biC5YyX5bGv5Y2A5YyX5bGv5ZyL5rCR5bCP5a24!5e0!3m2!1szh-TW!2stw!4v1695460500793!5m2!1szh-TW!2stw"
+						width="75%" height="45%" style="border:0; background-color: black;" allowfullscreen=""
+						loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="brightness"></iframe>
+				</div> <!-- end cinfo -->
+
+				<div class="cinfo">
+					<h6>Email Us At</h6>
+					<p>
+						someone@email.com<br>
+						ttravel@email.com
+					</p>
+				</div> <!-- end cinfo -->
+
+				<div class="cinfo">
+					<h6>Call Us At</h6>
+					<p>
+						Phone: (+886) 987 654 321<br>
+						Mobile: (+04) 987 6543
+					</p>
+				</div>
+
+			</div> <!-- end cinfo -->
+
+		</div> <!-- end row contact-content -->
+
+	</section> <!-- end contact -->
+
+	<!-- footer
+   ================================================== -->
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="col-twelve">
+				<div class="copyright">
+					<span>Design by <a href="#">Alicia</a> 2023.</span>
+				</div>
+			</div>
+
+		</div>
+
+	</div> <!-- end footer-bottom -->
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- 客製化 google form -->
+	<script>
+		$(function () {
+			$('#submit').on('click', function () {
+
+				// 姓名
+				var name = $('#contactName').val() || '未填寫';
+
+				// 信箱
+				var mail = $('#contactEmail').val() || '未填寫';
+
+				// 類別
+				var subject = $('#contactSubject').val() || '未填寫';
+
+				// 內容
+				var msg = $('#contactMessage').val() || '未填寫';
+
+				// post google的name值
+				var data = {
+					'entry.1416741093': name,
+					'entry.1759473509': mail,
+					'entry.1354588461': subject,
+					'entry.1151838793': msg
+				};
+
+				$.ajax({
+					type: 'POST',
+					url: 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScNasL8W-d835bfRFeHYlIwW-5wx65W7wOcPdxwGiUNdcDG0A/formResponse',
+					data: data,
+					contentType: 'application/json',
+					dataType: 'jsonp',
+					complete: function () {
+						alert('資料已成功送出，謝謝您的來信！');
+						window.location.href = 'contact.html';
+					}
+				});
+
+			});
+		});
+	</script>
+</body>
+
+</html>

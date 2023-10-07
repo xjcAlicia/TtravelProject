@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+   <title>Ttravel</title>
+   <meta name="description" content="">
+   <meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/all.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+   <!-- script
+   ================================================== -->
+   <script src="js/modernizr.js"></script>
+   <script src="js/pace.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+   <!-- favicons
+	================================================== -->
+   <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+   <link rel="icon" href="images/logo.svg" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+   <!-- header 
+   ================================================== -->
+   <header>
+
+      <div class="header-logo">
+         <a href="index.html">Ttravel</a>
+      </div>
+
+      <a id="header-menu-trigger" href="#0">
+         <span class="header-menu-icon"></span>
+      </a>
+
+      <nav id="menu-nav-wrap">
+
+         <a href="#0" class="close-button" title="close"><span>Close</span></a>
+
+         <h3>Ttravel.</h3>
+
+         <ul class="nav-list">
+            <li class="current"><a href="/index.html" title="">Home</a></li>
+            <li><a href="/room.html" title="">Room</a></li>
+            <li><a href="/contact.html" title="">Contact</a></li>
+         </ul>
+
+         <p class="sponsor-text" style="margin-top: 50vh;">
+            Ttravel with<br><span>HTML|CSS|SASS</span>
+         </p>
+
+      </nav> <!-- end #menu-nav-wrap -->
+
+   </header> <!-- end header -->
+
+
+   <!-- room
+   ================================================== -->
+   <section id="room">
+
+      <div class="intro-wrap">
+
+         <div class="row section-intro animate-this">
+            <div class="col-twelve">
+               <h1>Types of Rooms.</h1>
+            </div>
+         </div> <!-- end row section-intro -->
+
+      </div> <!-- end intro-wrap -->
+      <div class="row room-content">
+         <div class="col-twelve">
+            <div id="folio-wrap" class="bricks-wrapper">
+
+               <div class="brick folio-item">
+                  <div class="item-wrap animate-this" data-src="images/room/photo0.jpg" data-sub-html="#01">
+                     <a href="#" class="overlay">
+                        <img src="images/room/photo0.jpg" alt="Skaterboy">
+                        <div class="item-text">
+                           <span class="folio-types">
+                              Standard
+                           </span>
+                           <h3 class="folio-title">Single room</h3>
+                        </div>
+                     </a>
+                  </div> <!-- end item-wrap -->
+               </div> <!-- end folio-item -->
+
+               <div class="brick folio-item">
+                  <div class="item-wrap animate-this" data-src="images/room/photo1.jpg" data-sub-html="#02">
+                     <a href="#" class="overlay">
+                        <img src="images/room/photo1.jpg" alt="Shutterbug">
+                        <div class="item-text">
+                           <span class="folio-types">
+                              Superior
+                           </span>
+                           <h3 class="folio-title"> Double room</h3>
+                        </div>
+                     </a>
+                  </div> <!-- end item-wrap -->
+               </div> <!-- end folio-item -->
+
+               <div class="brick folio-item">
+                  <div class="item-wrap animate-this" data-src="images/room/photo2.jpg" data-sub-html="#03">
+                     <a href="#" class="overlay">
+                        <img src="images/room/photo2.jpg" alt="Explore">
+                        <div class="item-text">
+                           <span class="folio-types">
+                              Deluxe
+                           </span>
+                           <h3 class="folio-title">Twin room</h3>
+                        </div>
+                     </a>
+                  </div> <!-- end item-wrap -->
+               </div> <!-- end folio-item -->
+
+               <div class="brick folio-item">
+                  <div class="item-wrap animate-this" data-src="images/room/photo3.jpg" data-sub-html="#04">
+                     <a href="#" class="overlay">
+                        <img src="images/room/photo3.jpg" alt="Minimalismo">
+                        <div class="item-text">
+                           <span class="folio-types">
+                              Superior
+                           </span>
+                           <h3 class="folio-title">Family room </h3>
+                        </div>
+                     </a>
+                  </div> <!-- end item-wrap -->
+               </div> <!-- end folio-item -->
+
+               <div class="brick folio-item">
+                  <div class="item-wrap animate-this" data-src="images/room/photo4.jpg" data-sub-html="#05">
+                     <a href="#" class="overlay">
+                        <img src="images/room/photo4.jpg" alt="Bicycle">
+                        <div class="item-text">
+                           <span class="folio-types">
+                              Superior
+                           </span>
+                           <h3 class="folio-title">Twin room</h3>
+                        </div>
+                     </a>
+                  </div> <!-- end item-wrap -->
+               </div> <!-- end folio-item -->
+
+               <div class="brick folio-item">
+                  <div class="item-wrap animate-this" data-src="images/room/photo5.jpg" data-sub-html="#06">
+                     <a href="#" class="overlay">
+                        <img src="images/room/photo5.jpg" alt="Salad">
+                        <div class="item-text">
+                           <span class="folio-types">
+                              Club
+                           </span>
+                           <h3 class="folio-title">Family room</h3>
+                        </div>
+                     </a>
+                  </div> <!-- end item-wrap -->
+
+               </div> <!-- end folio-wrap -->
+            </div> <!-- end twelve -->
+         </div> <!-- end room-content -->
+
+   </section> <!-- end room -->
+
+
+   <!-- RoomType Section
+================================================== -->
+   <section id="roomtypes">
+
+      <div class="row flex-container">
+
+         <div id="roomtype-slider" class="flex-slider animate-this">
+
+            <ul class="slides">
+
+               <li>
+                  <p>
+                     Single Room
+                  </p>
+
+                  <div class="table-responsive">
+
+                     <table>
+                        <thead>
+                           <tr>
+                              <th>單人房</th>
+                              <th>詳細資訊</th>
+                              <th>報到時間</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>床型</td>
+                              <td>單人床</td>
+                              <th>15:00<br>-<br>20:00</th>
+                           </tr>
+                           <tr>
+                              <td>房間大小</td>
+                              <td>26 平方公尺</td>
+                           </tr>
+                           <tr>
+                              <td>衛浴設備</td>
+                              <td>淋浴與浴缸</td>
+                           </tr>
+                           <tr>
+                              <td>其他設施</td>
+                              <td>交誼廳｜游泳池｜餐廳</td>
+                           </tr>
+                           <tr>
+                              <th>費用/晚</th>
+                              <th>$1,800</th>
+                           </tr>
+                        </tbody>
+                     </table>
+
+                  </div>
+
+               </li> <!-- end slide -->
+
+               <li>
+                  <p>
+                     Double Room
+                  </p>
+                  <table>
+                     <thead>
+                        <tr>
+                           <th>雙人房</th>
+                           <th>詳細資訊</th>
+                           <th>報到時間</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>床型</td>
+                           <td>雙人床</td>
+                           <th>15:00<br>-<br>20:00</th>
+                        </tr>
+                        <tr>
+                           <td>房間大小</td>
+                           <td>30 平方公尺</td>
+                        </tr>
+                        <tr>
+                           <td>衛浴設備</td>
+                           <td>淋浴與浴缸</td>
+                        </tr>
+                        <tr>
+                           <td>其他設施</td>
+                           <td>交誼廳｜游泳池｜餐廳</td>
+                        </tr>
+                        <tr>
+                           <th>費用/晚</th>
+                           <th>$2,200</th>
+                        </tr>
+                     </tbody>
+                  </table>
+               </li> <!-- end slide -->
+               <li>
+                  <p>
+                     Twin Room
+                  </p>
+                  <table>
+                     <thead>
+                        <tr>
+                           <th>標準雙人房</th>
+                           <th>詳細資訊</th>
+                           <th>報到時間</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>床型</td>
+                           <td>單人床</td>
+                           <th>15:00<br>-<br>20:00</th>
+                        </tr>
+                        <tr>
+                           <td>房間大小</td>
+                           <td>34 平方公尺</td>
+                        </tr>
+                        <tr>
+                           <td>衛浴設備</td>
+                           <td>淋浴與浴缸</td>
+                        </tr>
+                        <tr>
+                           <td>其他設施</td>
+                           <td>交誼廳｜游泳池｜餐廳</td>
+                        </tr>
+                        <tr>
+                           <th>費用/晚</th>
+                           <th>$2,400</th>
+                        </tr>
+                     </tbody>
+                  </table>
+               </li> <!-- end slide -->
+               <li>
+                  <p>
+                     Family Room
+                  </p>
+                  <table>
+                     <thead>
+                        <tr>
+                           <th>家庭四人房</th>
+                           <th>詳細資訊</th>
+                           <th>報到時間</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>床型</td>
+                           <td>雙人床</td>
+                           <th>15:00<br>-<br>20:00</th>
+                        </tr>
+                        <tr>
+                           <td>房間大小</td>
+                           <td>40 平方公尺</td>
+                        </tr>
+                        <tr>
+                           <td>衛浴設備</td>
+                           <td>淋浴與浴缸</td>
+                        </tr>
+                        <tr>
+                           <td>其他設施</td>
+                           <td>交誼廳｜游泳池｜餐廳</td>
+                        </tr>
+                        <tr>
+                           <th>費用/晚</th>
+                           <th>$3,200</th>
+                        </tr>
+                     </tbody>
+                  </table>
+               </li> <!-- end slide -->
+            </ul> <!-- end slides -->
+
+         </div> <!-- end roomtype-slider -->
+
+      </div> <!-- end flex-container -->
+
+   </section> <!-- end roomtypes -->
+
+   <!-- Book  Section
+================================================== -->
+   <section id="book">
+      <div class="tag" id="tag">
+         <button class="animate__animated animate__headShake"
+            style="animation-iteration-count:infinite; animation-duration:2s;" onclick="toggleTag()">Booking</button>
+      </div>
+      <form id="bookingForm" action="process_booking.php" method="POST"> 
+         <div class="content" id="content">
+            <h3>Reservation Information</h3>
+            <input type="text" placeholder="Name" name="contentName" required>
+            <input type="email" placeholder="Email" name="contentEmail" required>
+            <input type="tel" placeholder="Phone" name="contentPhone" required>
+            <input type="number" placeholder="Number of people" id="contentGuests" name="contentGuests" min="1" max="8" required>
+            <input type="text" placeholder="Date" name="contentDateRange" id="contentDateRange" required>
+            <select id="contentRoomType" name="contentRoomType" class="room-select">
+               <option value="single">RoomTypes:</option>
+               <option value="single">Single Room</option>
+               <option value="double">Double Room</option>
+               <option value="twin">Twin Room</option>
+               <option value="family">Family Room</option>
+            </select>
+
+            <div class="form-field">
+               <button class="submitform" type="submit" style="border-radius: 10px;" onclick="submitForm()">Submit</button>
+            </div>
+         </div>
+      </form>
+   </section>
+
+   <!-- 顯示成功消息 -->
+<div id="successMessage" style="display: none;">
+   <p id="message-success">訂房成功！感謝您的預訂。</p>
+</div>
+
+   <!-- footer
+   ================================================== -->
+   <div class="footer-bottom">
+
+      <div class="row">
+
+         <div class="col-twelve">
+            <div class="copyright">
+               <span>Design by <a href="#">Alicia</a> 2023.</span>
+            </div>
+         </div>
+
+      </div>
+
+   </div> <!-- end footer-bottom -->
+
+   <script>
+      // 初始化Flatpickr
+      flatpickr("#contentDateRange", {
+         mode: "range", // 日期範圍選擇
+         enableTime: false, // 顯示時間幾點幾分
+         dateFormat: "Y-m-d",
+         defaultDate: [], // 空值
+         onChange: function (selectedDates, dateStr, instance) {
+            // 將日期填回表單
+            document.getElementById("bookingDateRange").value = dateStr;
+         }
+      });
+   </script>
+
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
