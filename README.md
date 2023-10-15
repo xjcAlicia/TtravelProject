@@ -10,19 +10,3 @@
 3. Contact頁面：將表單連結 google 表單，點擊送出後，將資料回傳至相對應的 google sheet<br>
 
 [Google Sheet連結](https://docs.google.com/spreadsheets/d/1rNWZ4yJougUZdqlRf3pWIx89TD6GssHWkXyUts-uelE/edit#gid=11445657)
-## 後台頁面截圖：
-首頁：
-![home](https://github.com/xjcAlicia/TtravelProject/blob/main/images/BM/home.jpeg)<br>
-
-會員資料管理頁面：
-![member](https://github.com/xjcAlicia/TtravelProject/blob/main/images/BM/member.jpeg)<br>
-增加會員頁面：
-![member](https://github.com/xjcAlicia/TtravelProject/blob/main/images/BM/member_add.jpeg)<br>
-會員編輯頁面：
-![member](https://github.com/xjcAlicia/TtravelProject/blob/main/images/BM/member_detail.jpeg)<br>
-
-房間管理頁面：
-![member](https://github.com/xjcAlicia/TtravelProject/blob/main/images/BM/room.jpeg)<br>
-
-會員訂房查詢頁面：
-![member](https://github.com/xjcAlicia/TtravelProject/blob/main/images/BM/booking.jpeg)<br>
