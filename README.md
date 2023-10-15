@@ -10,3 +10,6 @@
 3. Contact頁面：將表單連結 google 表單，點擊送出後，將資料回傳至相對應的 google sheet<br>
 
 [Google Sheet連結](https://docs.google.com/spreadsheets/d/1rNWZ4yJougUZdqlRf3pWIx89TD6GssHWkXyUts-uelE/edit#gid=11445657)
+<br>
+> 開發環境: Visual Stdio Code
+> 簡易後台截圖放在 images 裡
