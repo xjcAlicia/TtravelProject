@@ -1,4 +1,4 @@
-[Ttravel_露營地訂房網頁 網址](https://xjcalicia.github.io/TtravelProject/)
+[Ttravel_露營地訂房網頁](https://xjcalicia.github.io/TtravelProject/)
 # 網頁規劃
 將既有的網頁，調整成所需的內容與樣式，並加上訂房表單。
 * 使用 SASS 預處理器撰寫，將 css 分類，讓網頁後續更好維護
